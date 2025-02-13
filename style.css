@@ -1,0 +1,67 @@
+/* Pink Background */
+.valentine-bg {
+    background: #f1c6d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Red Button and Box */
+.container {
+    background: #ff6f91; /* Deep Red */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #e60026;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffb3c6;
+    color: black;
+}
+
+/* Art Page - Fixing Black Margins & Full Coverage */
+.art-bg {
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
+    padding: 0;
+    margin: 0;
+}
+
+/* Text Mask Fix */
+p {
+    font-size: 8px;
+    line-height: 8px;
+    text-align: justify;
+    background: url('princes.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    white-space: normal;
+    width: 100vw;  /* Force full width */
+    height: 100vh; /* Force full height */
+    display: block;
+    padding: 0;
+    margin: 0;
+}
