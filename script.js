@@ -19,7 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "ingat baby haa", "hmmmm?", "I love youu moreee", "Mas mahal nga kasi kita",
         "Hindii, mas mahal kitaaa", "I love you moree", "I love you the mostt",
         "I love you more thann mostt", "Mahal naman ehh", "Babyyyyyy",
-        "My loveeee", "Mahaaaal"
+        "My loveeee", "Mahaaaal",
+        "I miss youuuuuu", "Here lang po me always mahal ko", "Ikaw lang po baby ko",
+        "Magpahinga nang mabutii, you need it mahal ko", "I'm always proud of youuuuuuu :>",
+        "Help kita sa assignment mo po babyy", "want mo po vc us?", "wag na mag sorry mahal",
+        "*sent a reel* us baby", "ayawwww", "hayy nakooo", "congrats my loveee!!",
+        "so galing ng baby koo", "mag ingat babyy", "*angry cat emojis*", "cutie hehe",
+        "I need baby timee", "I'm so proud of my baby kayaa"
     ];
 
     function askValentine() {
